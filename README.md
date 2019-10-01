@@ -29,4 +29,4 @@ Xpring is working on building a zero-config way for XRP node users to deploy and
 
 ## Roadmap
 
-Over time Xpring will work with the community, developers, and partners in order to expand the feature set to fulfill the needs of applications in the ecosystem. Xpring also will expand support to additional languages and platforms in the near future. 
+Over time Xpring will work with the community, developers, and partners in order to expand the feature set to fulfill the needs of apps in the ecosystem. Xpring also will expand support to additional languages and platforms in the near future. 
