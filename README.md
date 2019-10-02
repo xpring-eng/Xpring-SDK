@@ -16,6 +16,7 @@ Xpring SDK provides the following features:
 - Sending XRP payments
 
 Xpring SDK is available in the following languages:
+- Java: [Xpring4j](https://github.com/xpring-eng/xpring4j)
 - Swift: [XpringKit](https://github.com/xpring-eng/xpringkit)
 - JavaScript: [Xpring-JS](https://github.com/xpring-eng/xpring-js) 
 
