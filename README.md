@@ -15,10 +15,13 @@ Xpring SDK provides the following features:
 - Account balance retrieval
 - Sending XRP payments
 
-Xpring SDK is available in the following languages:
+Official versions of Xpring SDK are available in the following languages:
 - Java: [Xpring4j](https://github.com/xpring-eng/xpring4j)
-- Swift: [XpringKit](https://github.com/xpring-eng/xpringkit)
 - JavaScript: [Xpring-JS](https://github.com/xpring-eng/xpring-js) 
+- Swift: [XpringKit](https://github.com/xpring-eng/xpringkit)
+
+Community driven SDKs are also available:
+- Go: [Xpring4go](https://github.com/sprwn/xpring4go)
 
 ### Server-Side Component
 The server-side component sends client-side requests to an XRP Node. 
