@@ -29,7 +29,6 @@ Xpring SDK is available in the following languages:
 ### Remote Node
 
 **TODO(sappenin): Okay to link to Hermes ILP?**
-
 Xpring SDK connects to a remote [rippled node](https://github.com/ripple/rippled) or [interledger node](https://github.com/xpring-eng/hermes-ilp).
 
 Xpring recommends users of the SDK run their own nodes. However, Xpring recognizes that users may want to rapidly prototype without running their own infrastructure. As a result, we run the following public nodes which users can connect to:
