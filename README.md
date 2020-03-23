@@ -17,7 +17,7 @@ Xpring SDK provides the following features when used with the XRPL Ledger protoc
 - Transaction Status
 - Payment History
 
-Xpring SDK provides the following features when used with the InterLedger Protocol protocol:
+Xpring SDK provides the following features when used with InterLedger protocols:
 - Sending payments
 - Checking account balance
 
