@@ -9,13 +9,17 @@ Xpring SDK is a set of libraries and services designed to make interaction with 
 
 Xpring SDK provides commonly used functionality for the XRP Ledger, InterLedger Protocol (ILP) and PayID. Functionality and programming paradigms are common across all libraries in Xpring SDK.
 
-Xpring SDK provides the following features:
+Xpring SDK provides the following features when used with the XRPL Ledger protocol:
 - Wallet generation and derivation (Seed-based or HD Wallet-based)
 - Address validation
 - Account balance retrieval
 - Sending XRP payments
 - Transaction Status
 - Payment History
+
+Xpring SDK provides the following features when used with the InterLedger Protocol protocol:
+- Sending payments
+- Checking account balance
 
 Xpring SDK is available in the following languages:
 - Java: [Xpring4j](https://github.com/xpring-eng/xpring4j)
@@ -24,12 +28,13 @@ Xpring SDK is available in the following languages:
 
 ### Remote Node
 
-**TODO(sappenin): Okay to link to Hermes ILP? **
+**TODO(sappenin): Okay to link to Hermes ILP?**
 
 Xpring SDK connects to a remote [rippled node](https://github.com/ripple/rippled) or [interledger node](https://github.com/xpring-eng/hermes-ilp).
 
 Xpring recommends users of the SDK run their own nodes. However, Xpring recognizes that users may want to rapidly prototype without running their own infrastructure. As a result, we run the following public nodes which users can connect to:
-**TODO(sappenin): Do we have publicly hosted Hermes instances? **
+
+
 ```
 # Rippled
 ## Mainnet
@@ -41,10 +46,11 @@ test.xrp.xpring.io:50051         # Outside of a browser
 https://envoy.test.xrp.xpring.io # Inside of a browser
 
 # ILP
+# TODO(sappenin): Do we have publicly hosted Hermes instances?
 ```
 
 ## Roadmap
 
 Over time Xpring will work with the community, developers, and partners to expand the feature set to fulfill the needs of apps in the ecosystem. Xpring will also expand support to more languages and platforms in the near future.
 
-If you have a use case or feature request not fulfilled by Xpring SDK, feel free to ask over at the [Xpring Forum](https://xpring.io/forum).
+If you have a use case or feature request not fulfilled by Xpring SDK, feel free to ask over at the [Xpring Forum](https://forum.xpring.io).
