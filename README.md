@@ -44,7 +44,8 @@ test.xrp.xpring.io:50051         # Outside of a browser
 https://envoy.test.xrp.xpring.io # Inside of a browser
 
 # ILP
-# TODO(sappenin): Do we have publicly hosted Hermes instances?
+## Testnet
+hermes-envoy-test.xpring.io
 ```
 
 ## Roadmap
