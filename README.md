@@ -1,34 +1,55 @@
+
+
 *Read this in other languages: [日本](README-ja.md).*
 
 # Introduction
-Xpring SDK is a set of libraries and services designed to make interaction with Xpring easy and intuitive. Xpring SDK works consistently across languages and platforms to create a cohesive development experience, regardless of the language, platform, or environment you are building your app in.
+Xpring SDK is a set of libraries and services designed to make interaction with protocols from Xpring easy and intuitive. Xpring SDK works consistently across languages and platforms to create a cohesive development experience, regardless of the language, platform, or environment you are building your app in.
 
-## Architecture
-The development experience is comprised of two components:
-- A set of language-specific client-side libraries
-- A server-side component that handles requests from the client-side libraries and proxies them to an XRP node
+### Libraries
 
-### Client-Side Libraries
-Xpring SDK provides the most commonly used functionality on the XRP Ledger. Functionality and programming paradigms are common across all libraries in Xpring SDK.
+Xpring SDK provides commonly used functionality for the XRP Ledger and InterLedger Protocol (ILP). Functionality and programming paradigms are common across all libraries in Xpring SDK.
 
-Xpring SDK provides the following features:
+Xpring SDK provides the following features when used with the XRPL Ledger protocol:
 - Wallet generation and derivation (Seed-based or HD Wallet-based)
 - Address validation
 - Account balance retrieval
 - Sending XRP payments
+- Transaction Status
+- Payment History
+
+Xpring SDK provides the following features when used with InterLedger protocols:
+- Sending payments
+- Checking account balance
 
 Xpring SDK is available in the following languages:
 - Java: [Xpring4j](https://github.com/xpring-eng/xpring4j)
 - Swift: [XpringKit](https://github.com/xpring-eng/xpringkit)
 - JavaScript: [Xpring-JS](https://github.com/xpring-eng/xpring-js)
 
-### Server-Side Component
-The server-side component sends client-side requests to an XRP Node.
+### Remote Node
 
-To get developers started right away, Xpring currently provides the server side component as a hosted service, which proxies requests from client side libraries to an XRP Node. Developers can reach the endpoint here: `grpc.xpring.tech:80`
+Xpring SDK connects to a remote [rippled node](https://github.com/ripple/rippled) or [interledger node](https://github.com/xpring-eng/hermes-ilp).
 
-Xpring is working on building a zero-config way for XRP node users to deploy and use the adapter as an open-source component of [rippled](https://github.com/ripple/rippled). Watch this space!
+Xpring recommends users of the SDK run their own nodes. However, Xpring recognizes that users may want to rapidly prototype without running their own infrastructure. As a result, we run the following public nodes which users can connect to:
+
+
+```
+# Rippled
+## Mainnet
+main.xrp.xpring.io:50051         # Outside of a browser
+https://envoy.main.xrp.xpring.io # Inside of a browser
+
+## Testnet
+test.xrp.xpring.io:50051         # Outside of a browser
+https://envoy.test.xrp.xpring.io # Inside of a browser
+
+# ILP
+## Testnet
+hermes-envoy-test.xpring.io
+```
 
 ## Roadmap
 
 Over time Xpring will work with the community, developers, and partners to expand the feature set to fulfill the needs of apps in the ecosystem. Xpring will also expand support to more languages and platforms in the near future.
+
+If you have a use case or feature request not fulfilled by Xpring SDK, feel free to ask over at the [Xpring Forum](https://forum.xpring.io).
