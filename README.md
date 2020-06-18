@@ -14,9 +14,9 @@ Xpring SDK integrates with the following protocols:
 
 ### Libraries
 
-Xpring SDK provides commonly used functionality for the XRP Ledger, PayID and InterLedger Protocol (ILP). Functionality and programming paradigms are common across all libraries in Xpring SDK.
+Xpring SDK provides commonly used functionality for the XRP Ledger, PayID and Interledger Protocol (ILP). Functionality and programming paradigms are common across all libraries in Xpring SDK.
 
-Xpring SDK provides the following features when used with the XRPL Ledger protocol:
+Xpring SDK provides the following features when used with the XRP Ledger protocol:
 - Wallet generation and derivation (Seed-based or HD Wallet-based)
 - Address validation
 - Account balance retrieval
@@ -24,7 +24,7 @@ Xpring SDK provides the following features when used with the XRPL Ledger protoc
 - Transaction Status
 - Payment History
 
-Xpring SDK provides the following features when used with InterLedger protocols:
+Xpring SDK provides the following features when used with Interledger protocols:
 - Sending payments
 - Checking account balance
 
@@ -35,13 +35,13 @@ Xpring SDK is available in the following languages:
 
 ### Remote Node
 
-Xpring SDK connects to a remote [rippled node](https://github.com/ripple/rippled) or [interledger node](https://github.com/xpring-eng/hermes-ilp).
+Xpring SDK connects to a remote [rippled node](https://github.com/ripple/rippled) or [Interledger node](https://github.com/xpring-eng/hermes-ilp).
 
 Xpring recommends users of the SDK run their own nodes. However, Xpring recognizes that users may want to rapidly prototype without running their own infrastructure. As a result, we run the following public nodes which users can connect to:
 
 
 ```
-# Rippled
+# rippled
 ## Mainnet
 main.xrp.xpring.io:50051         # Outside of a browser
 https://envoy.main.xrp.xpring.io # Inside of a browser
