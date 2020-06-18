@@ -5,9 +5,16 @@
 # Introduction
 Xpring SDK is a set of libraries and services designed to make interaction with protocols from Xpring easy and intuitive. Xpring SDK works consistently across languages and platforms to create a cohesive development experience, regardless of the language, platform, or environment you are building your app in.
 
+## Protocol Support
+
+Xpring SDK integrates with the following protocols:
+- [XRP Ledger](https://xrpl.org): The XRP Ledger is a decentralized cryptographic ledger, powered by a network of peer-to-peer servers.
+- [PayID](https://payid.org): A better way for your users to send and receive payments.
+- [Interledger Protocol](https://interledger.org): An open protocol suite for sending payments across different ledgers.
+
 ### Libraries
 
-Xpring SDK provides commonly used functionality for the XRP Ledger and Interledger Protocol (ILP). Functionality and programming paradigms are common across all libraries in Xpring SDK.
+Xpring SDK provides commonly used functionality for the XRP Ledger, PayID and Interledger Protocol (ILP). Functionality and programming paradigms are common across all libraries in Xpring SDK.
 
 Xpring SDK provides the following features when used with the XRP Ledger protocol:
 - Wallet generation and derivation (Seed-based or HD Wallet-based)
