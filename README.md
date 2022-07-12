@@ -1,4 +1,4 @@
-
+# Xpring SDK is deprecated. See alternatives, see [Developer Resources](https://ripple.com/developer-resources/).
 
 *Read this in other languages: [日本](README-ja.md).*
 
@@ -54,9 +54,3 @@ https://envoy.test.xrp.xpring.io # Inside of a browser
 ## Testnet
 hermes-envoy-test.xpring.io
 ```
-
-## Roadmap
-
-Over time Xpring will work with the community, developers, and partners to expand the feature set to fulfill the needs of apps in the ecosystem. Xpring will also expand support to more languages and platforms in the near future.
-
-If you have a use case or feature request not fulfilled by Xpring SDK, feel free to ask over at the [Xpring Forum](https://forum.xpring.io).
